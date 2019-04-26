@@ -1,11 +1,14 @@
 {
-  "name": "styled-component-sytstem",
+  "name": "styled-component-system",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "polished": "^3.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "styled-components": "^4.2.0",
+    "styled-components-modifiers": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +24,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-plugin-macros": "^2.5.1",
+    "babel-plugin-styled-components": "^1.10.0"
+  }
 }
